@@ -1,0 +1,39 @@
+{
+  "name": "iot-edge-modbusevent",
+  "version": "1.0.0",
+  "description": "Azure IoT Edge Module - Modbus Event",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imZack/iot-edge-modbusevent.git"
+  },
+  "keywords": [
+    "Azure IoT",
+    "Azure IoT Edge",
+    "IoT Edge Module",
+    "Modbus"
+  ],
+  "author": "YuLun Shih",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imZack/iot-edge-modbus2json/issues"
+  },
+  "homepage": "https://github.com/imZack/iot-edge-modbus2json#readme",
+  "dependencies": {
+    "azure-iot-device": "1.7.0",
+    "azure-iot-device-mqtt": "1.7.0",
+    "debug": "^3.1.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "typescript": "^2.9.2"
+  }
+}
